@@ -1,0 +1,5 @@
+# ignore all files in ANY credentials directory
+**/credentials
+
+# ignore .terraform directories which include provider files
+**/.terraform*
