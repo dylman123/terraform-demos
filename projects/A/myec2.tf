@@ -1,3 +1,4 @@
 module "ec2_module" {
     source = "../../modules/ec2"
+    instance_type = "t2.large"
 }
