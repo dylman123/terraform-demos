@@ -4,3 +4,6 @@ credentials.tf
 
 # ignore .terraform directories which include provider files
 **/.terraform*
+
+# ignore apple macOS files
+.DS_Store
