@@ -1,7 +1,5 @@
 provider "aws" {
   region     = "ap-southeast-2"
-  access_key = var.my_access_key
-  secret_key = var.my_secret_key
   version = "<=4.28"  # new version requires vpc id to be specified in aws_security_group
 }
 
