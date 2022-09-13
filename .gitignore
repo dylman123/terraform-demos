@@ -1,9 +1,23 @@
+# recommended terraform files to ignore
+**/.terraform/*
+**/.terraform.lock.hcl
+
+*.tfstate
+*.tfstate.*
+
+*.tfvars
+
+terraform.tfvars
+terraform.tfstate
+
+crash.log
+
 # ignore all files in ANY credentials directory, or files with the name credentials
 credentials
 credentials.tf
 
 # ignore .terraform directories which include provider files
-**/.terraform*
+
 
 # ignore apple macOS files
 .DS_Store
