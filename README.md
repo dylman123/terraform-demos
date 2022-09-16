@@ -1,2 +1,2 @@
 ## Terraform Demos
-In order to follow the Udemy course and experiment on my own.
+In order to train for the HashiCorp Certified: Terraform Associate (002) exam and certification.
